@@ -1,3 +1,5 @@
+Progress of skeleton for case 1:
+
 
 | Docker            | FrontEnd - Animal | WebAPI        | Other |
 |:-------------------|:-----------------|:--------------|:--------------|
@@ -7,7 +9,7 @@
 | ✓ - docker-compose  | X - Views       | ✓ - Delete    |
 |                     |                 | ✓ - Swashbuckle |
 |                     |                 | X - DataMapper 
-&nbsp;
+
 ___
 #Docker
 >Description of the dockerfiles and docker compose                                           
