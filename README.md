@@ -1,30 +1,12 @@
-V1.02 WebAPI basic CRUD with Database
 
-Progress of skeleton for Case 1:
-
-Docker                   
- ✓ - FrontEnd            
- ✓ - WebAPI              
- ✓ - Database              
- ✓ - docker-compose       
-
-FrontEnd 
- ✓ - HttpGet 
- X - HttpPost
- X - HttpPut 
- X - Views   
- 
- Animal  WebAPI
-✓ - HttpGet   
- ✓ - Insert   
- ✓ - Edit     
- ✓ - Delete   
- ✓ - Swashbuckle 
-X - DataMapper 
-
-         Other 
- X - FrontEnd Pipeline 
-  X - BackEnd Pipeline 
+| Docker            | FrontEnd - Animal | WebAPI        | Other |
+|:-------------------|:-----------------|:--------------|:--------------|
+| ✓ - FrontEnd        | ✓ - HttpGet     | ✓ - HttpGet  |  X - FrontEnd Pipeline |
+| ✓ - WebAPI          | X - HttpPost    | ✓ - Insert    |  X - BackEnd Pipeline |
+| ✓ - Database        | X - HttpPut     | ✓ - Edit      | 
+| ✓ - docker-compose  | X - Views       | ✓ - Delete    |
+|                     |                 | ✓ - Swashbuckle |
+|                     |                 | X - DataMapper 
 &nbsp;
 ___
 #Docker
